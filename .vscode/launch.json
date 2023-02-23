@@ -1,0 +1,41 @@
+{
+    // Use o IntelliSense para saber mais sobre os atributos possíveis.
+    // Focalizar para exibir as descrições dos atributos existentes.
+    // Para obter mais informações, acesse: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "fwc_album_app (android)",
+            "request": "launch",
+            "type": "dart",
+            "deviceId": "0077817710"
+        },
+        {
+            "name": "fwc_album_app (iOS)",
+            "request": "launch",
+            "type": "dart",
+            "deviceId": "00008110-001204A93AF0401E"
+        },
+        {
+            "name": "fwc_album_app (profile mode)",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "profile"
+        },
+        {
+            "name": "fwc_album_app (release mode)",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "release"
+        }
+    ],
+    "compounds": [
+        {
+            "name": "fwc_album_app (mobile)",
+            "configurations": [
+                "fwc_album_app (android)",
+                "fwc_album_app (iOS)"
+            ]
+        }
+    ]
+}
