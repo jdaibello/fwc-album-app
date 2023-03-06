@@ -1,3 +1,4 @@
+import 'package:flutter/material.dart';
 import 'package:flutter/widgets.dart';
 import 'package:fwc_album_app/app/core/ui/styles/colors_app.dart';
 
@@ -65,6 +66,11 @@ class TextStyles {
 
   TextStyle get textSecondaryFontExtraBoldPrimaryColor => textSecondaryFontExtraBold.copyWith(
         color: ColorsApp.instance.primary,
+      );
+
+  TextStyle get titleWhite => textPrimaryFontBold.copyWith(
+        fontSize: 22,
+        color: Colors.white,
       );
 }
 

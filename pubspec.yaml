@@ -27,8 +27,11 @@ environment:
 # versions available, run `flutter pub outdated`.
 dependencies:
   cupertino_icons: ^1.0.5
+  dio: ^5.0.1
   flutter:
     sdk: flutter
+  flutter_dotenv: ^5.0.2
+  flutter_getit: ^1.2.1
   loading_animation_widget: ^1.2.0+4
   top_snackbar_flutter: ^2.1.1
 
@@ -47,6 +50,7 @@ flutter:
   uses-material-design: true
 
   assets:
+    - .env
     - assets/images/
     - assets/images/flags/
 
